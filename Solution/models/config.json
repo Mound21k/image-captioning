@@ -1,0 +1,17 @@
+{
+    "data_dir": "../data/flickr8k",
+    "batch_size": 32,
+    "num_workers": 4,
+    "encoder_model": "resnet18",
+    "embed_size": 256,
+    "hidden_size": 512,
+    "num_layers": 1,
+    "dropout": 0.5,
+    "decoder_type": "lstm",
+    "learning_rate": 0.0003,
+    "num_epochs": 15,
+    "early_stopping_patience": 5,
+    "save_dir": "../models",
+    "device": "cuda",
+    "vocab_size": 2986
+}
