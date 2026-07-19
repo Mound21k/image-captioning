@@ -93,9 +93,9 @@ Default hyperparameters live in `models/config.json`:
 - **Decoder** (`models/decoder.py`): embeds caption tokens, feeds them through an LSTM/GRU initialized from the image feature, and projects hidden states to vocabulary logits.
 - **CaptionModel** (`models/caption_model.py`): wires the encoder and decoder together, supporting teacher-forced training and both greedy and beam-search inference.
 
-## Expected Results
+## Results
 
-With the default configuration, the trained model should achieve approximately:
+With the default configuration, the trained model can achieve approximately:
 - BLEU-1: ~0.60–0.65
 - BLEU-4: ~0.20–0.25
 
